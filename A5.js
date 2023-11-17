@@ -1,3 +1,5 @@
+// Write a function to check if a given number is prime.
+
 function primeCheck(n) {
   if (n < 2) {
     console.log(n + " is not a prime number");
@@ -13,4 +15,5 @@ function primeCheck(n) {
   return true;
 }
 
-primeCheck(1);
+//Sample tests
+primeCheck(3);

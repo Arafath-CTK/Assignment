@@ -1,4 +1,8 @@
-function strReverse(param) {
-    console.log(param.split("").reverse().join("")); 
+// Write a function to reverse a string
+
+function strReverse(string) {
+  console.log(string.split("").reverse().join(""));
 }
-strReverse("arafath");
+
+//Sample tests
+strReverse("Java Script");
